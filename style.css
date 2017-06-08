@@ -1,0 +1,185 @@
+html {
+	font-family:Verdana;
+	background-color:#e8ffeb;
+}
+.header-wrapper {
+	width: 100%;
+	position:fixed;
+	top:0;
+	right:0;
+	left:0;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height:50px;
+}
+
+.header-wrapper li {
+	float:left;
+}
+
+.header-wrapper #slogan span {
+	display:block;
+	color:white;
+	text-align:center;
+	padding: 12px 95px;
+	font-family: cursive;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+}
+
+.header-wrapper #profile {
+	float:right;
+}
+
+.header-wrapper li img {
+	margin-top:auto;
+	padding:0px;
+	height:50px;
+
+}
+
+.header-wrapper li input {
+	display:block;
+	float:left;
+	width:250px;
+	font-size:18px;
+	margin:5px;
+	margin-top:13px;
+}
+.header-wrapper li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    height:50px;
+}
+
+.header-wrapper li a:hover {
+    background-color: #111;
+}
+
+html, body {
+	height:100%;
+}
+
+.main-wrapper {
+	position:relative;
+	background-color:#98fb98;
+	width:100%;
+	padding:0;
+	left:0;
+	right:0;
+	top:50;
+	height:500%;
+	z-index:-1;
+}
+
+#first_mom {
+	margin-top:80px;
+}
+
+.mom {
+	display: inline-block;
+	margin-bottom:35px;
+	margin-left:40px;
+	padding: 1px 15px;
+	width:57%;
+}
+
+.mom p {
+	line-height:25px;
+	background-color:#c4ffcc;
+	padding:20px;
+	border:3px solid green;
+	border-radius:20px;
+	box-shadow:2px 2px 6px black;
+}
+
+.mom .who {
+	height:60px;
+}
+
+.mom .who img {
+	display:inline-block;
+	height:60px;
+}
+
+.mom .who #name {
+	position:absolute;
+	padding:23px 15px;
+	display:inline-block;
+	font-weight:bold;
+	z-index:-1;
+
+}
+
+.mom .who #date {
+	position:absolute;
+	padding:45px 15px;
+	display:inline-block;
+	color:gray;
+	font-size:70%;
+	z-index:-1;
+
+}
+
+.add_mom {
+	display:block;
+	position:fixed;
+	right:4%;
+	top:110px;
+	height:530px;
+	width:30%;
+	z-index:-1;
+}
+
+.add_mom #title {
+	font-weight:bold;
+	font-size:140%;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+.add_mom #input_mom {
+	background-color:green;
+	border:0px solid green;
+	border-radius:10px;
+
+}
+
+.add_mom #input_mom textarea {
+	height:430px;
+	width:100%;
+	border:2px solid green;
+	border-radius:10px;
+	box-shadow:1px 1px 3px black;
+	font-size:16px;
+
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.add_mom #submit_mom {
+	text-align:center;
+	padding-top:15px;
+}
+
+.add_mom #submit_mom input {
+	width:100px;
+	font-size:200%;
+}
+
+
+
+
+
+

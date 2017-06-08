@@ -1,0 +1,29 @@
+Todo:
+-Get basic layout/design finished
+	-Header and footers
+	-All necessary pages created
+		-Main page
+		-Profile Page
+		-Other simple pages
+	-Simple CSS
+-Display and add Moment logic
+	-DB call to show Moments on main page
+	-Form to fill out to add new Moment
+	-Commenting on Moments
+	-Liking Moments
+	-Advanced Moment Logic
+		-Displaying Moments by "likes"
+		-Related to profile: showing followed Moments
+		-Editor's choice?
+-Profiles
+	-Logic for profile creation
+	-Flesh out profile page
+	-Following feature
+-Get hosting set up
+	-Create MySQL database
+
+
+
+
+Colors:
+	-Really pale green: #e8ffeb
