@@ -3,13 +3,13 @@
     require_once('Database.php');
 
     function generateRandomString($length = 10) {
-    	return substr(str_shuffle(str_repeat($x='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length/strlen($x)) )),1,$length);
-	}
+        return substr(str_shuffle(str_repeat($x='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length/strlen($x)) )),1,$length);
+    }
 
-	$session_id = generateRandomString(16);
+    $session_id = generateRandomString(16);
 
-	$ip_address = $_SERVER["REMOTE_ADDR"];
-	
+    $ip_address = $_SERVER["REMOTE_ADDR"];
+    
 ?>
 
 <html>
@@ -31,6 +31,10 @@
             <div class="add_mom">
                 <div id="title">
                     <span>What's your moment?</span>
+                </div>
+                <div id="info">
+                    <input type="text" placeholder="Name" />
+                    <input type="password" placeholder="Code" />
                 </div>
                 <div id="input_mom">
                     <textarea placeholder="Leave your mark..."></textarea>
