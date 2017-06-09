@@ -13,7 +13,6 @@
     $mom = new Database();
     $mom->db_connect();
     $moments_db = new Moments_db($mom);
-	$name = $moments_db->get_name($string_id);
 
 	$moments_db->insert_new_mom($string_id, $session_id, $ip_address, $name, $moment, 0);
     echo "<div class='mom'>
