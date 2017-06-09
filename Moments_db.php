@@ -20,7 +20,7 @@ class Moments_db {
 	}
 
 	function get_all_moms() {
-		$sql = "SELECT name, date_added, moment FROM moments ORDER BY date_added DESC;";
+		$sql = "SELECT name, date_added, mom FROM moments ORDER BY date_added DESC;";
         $result = $this->database->do_query($sql);
         return $result;
 	}

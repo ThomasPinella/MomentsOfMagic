@@ -27,7 +27,7 @@
                     var name = $("#input_name").val();
                     var code = $("#input_code").val();
                     var mom = $("#input_text").val();
-                    if (code = "password") {
+                    if (code == "password") {
                         $.post("post.php", {name: name, code: code, mom: mom, session_id: "<?php echo session_id()?>", string_id: "<?php echo $string_id?>", ip_address: "<?php echo $ip_address?>"}, function(data) {
                             alert("Thanks for submitting, " + name +"!");
                             name = $("#input_name").val("");
