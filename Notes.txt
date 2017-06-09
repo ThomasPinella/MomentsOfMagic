@@ -27,3 +27,8 @@ Todo:
 
 Colors:
 	-Really pale green: #e8ffeb
+
+
+
+CREATE USER 'thomas' IDENTIFIED BY 'password';
+GRANT ALL ON momentsofmagic.* TO 'thomas';

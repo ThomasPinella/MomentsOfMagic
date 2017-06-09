@@ -81,13 +81,10 @@ html, body {
 	z-index:-1;
 }
 
-#first_mom {
-	margin-top:80px;
-}
 
 .mom {
 	display: inline-block;
-	margin-bottom:35px;
+	margin-top:60px;
 	margin-left:40px;
 	padding: 1px 15px;
 	width:57%;
@@ -147,7 +144,6 @@ html, body {
 }
 
 .add_mom #input_mom {
-	background-color:green;
 	border:0px solid green;
 	border-radius:10px;
 

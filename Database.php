@@ -4,10 +4,10 @@
 //include('Net/SSH2.php');
 
 class Database {
-    var $servername = "thomaspinella.db";
+    var $servername = "magicmoments.db";
     var $username = "thomas";
     var $password = "password";
-    var $dbname = "sitedata";
+    var $dbname = "momentsofmagic";
     var $conn;
     
     function db_connect() {
