@@ -27,14 +27,18 @@
                     var name = $("#input_name").val();
                     var code = $("#input_code").val();
                     var mom = $("#input_text").val();
-                    $.post("post.php", {name: name, code: code, mom: mom, session_id: "<?php echo session_id()?>", string_id: "<?php echo $string_id?>", ip_address: "<?php echo $ip_address?>"}, function(data) {
-                        alert("Thanks for submitting, " + name +"!");
-                        name = $("#input_name").val("");
-                        code = $("#input_code").val("");
-                        mom = $("#input_text").val("");
-                        var html = data + $("#mom_wrapper").html();
-                        $("#mom_wrapper").html(html);
-                    });
+                    if (code = "password") {
+                        $.post("post.php", {name: name, code: code, mom: mom, session_id: "<?php echo session_id()?>", string_id: "<?php echo $string_id?>", ip_address: "<?php echo $ip_address?>"}, function(data) {
+                            alert("Thanks for submitting, " + name +"!");
+                            name = $("#input_name").val("");
+                            code = $("#input_code").val("");
+                            mom = $("#input_text").val("");
+                            var html = data + $("#mom_wrapper").html();
+                            $("#mom_wrapper").html(html);
+                        });
+                    } else {
+                        alert("Your code is wrong");
+                    }
                     return false;
                 });
             });
